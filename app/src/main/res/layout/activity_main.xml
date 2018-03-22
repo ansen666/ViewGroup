@@ -1,18 +1,18 @@
 <com.ansen.views.MyViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
     android:background="@android:color/darker_gray">
 
     <TextView
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
         android:background="@android:color/holo_red_light"
         android:padding="10dp"
-        android:text="1"
-        app:layout_position="bottom"/>
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_position="bottom"
+        android:text="1"/>
 
     <TextView
         android:layout_width="60dp"
@@ -28,7 +28,7 @@
         android:layout_height="60dp"
         android:background="@android:color/holo_orange_light"
         android:padding="10dp"
+        app:layout_position="right"
         android:text="3"
-        android:textColor="@android:color/white"
-        app:layout_position="right"/>
+        android:textColor="@android:color/white"/>
 </com.ansen.views.MyViewGroup>
